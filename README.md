@@ -1,2 +1,2 @@
 # codewars
-My code from the codewars education site.
+My code from the codewars challenge site.
