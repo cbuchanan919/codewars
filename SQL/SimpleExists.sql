@@ -1,6 +1,10 @@
 SELECT id, name 
 FROM departments 
-WHERE EXISTS (SELECT department_id FROM sales WHERE price > 98.00)
+WHERE EXISTS( 
+  SELECT id 
+  FROM sales
+  WHERE price > 98.00 and departments.id = sales.department_id );
+  
 
 /*
 For this challenge you need to create a SELECT statement that will contain data about departments that had a sale with a price over 98.00 dollars. 
