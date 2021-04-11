@@ -1,2 +1,2 @@
 # codewars
-My code from the codewars challenge site. Each file / entry is one challenge, and is therefore fairly short. A lot the content of each challenge will be the instructions & testing used.
+My code from the codewars challenge site. There are multiple challenges in the example file. A lot of the content for each challenge will be the instructions & testing used.
